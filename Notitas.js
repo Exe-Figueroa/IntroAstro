@@ -12,4 +12,5 @@
  * *<slot /> => es el equivalente a children en react
  * *color-scheme: dark light; => Coloca por defecto las letras en blanco ya que considera que el bg es oscuro
  * *A los slots se les puede colocar un valor por defecto
+ * *Es compatible con .md
  */  
