@@ -25,4 +25,5 @@
  *  ?Se le puede una configuració para que sea hybrid y a cada vista que será por parter del server colocarle el prerender como false o se puede hacer todo estático o de servidor
  * *Para una animación en el cambio de páginas se puede colocar el ViewTransitions en el head del html y eso se encarga de manera automática de animar las transiciones de las vistas
  * *Para agregar dinamismo a los componentes hay que pasarle que el cliente lo carge cuando (Colocar opción deseada) client:visible
+ * *Para hacer persistencia de la info se debe colocar un transition:persist en el nodo contenedor de la parte dinámica
  */  
