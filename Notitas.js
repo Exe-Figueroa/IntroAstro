@@ -13,4 +13,6 @@
  * *color-scheme: dark light; => Coloca por defecto las letras en blanco ya que considera que el bg es oscuro
  * *A los slots se les puede colocar un valor por defecto
  * *Es compatible con .md
+ * *Para hacer fetching de datos se realiza de la misma manera que en js
+ *  ?En este caso como usamos ts hacemos un tipo para los valores que devuelve la api y así tener acceso a las sugerencias
  */  
