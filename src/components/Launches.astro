@@ -23,6 +23,12 @@ const { docs: launches } = (await res.json()) as APISpaceXResponse;
   {
     launches.map((launch) => (
       <CardLaunch
+      id={launch.id}
+      details={launch.details}
+      img={launch.links.patch.small}
+      flightNumber={launch.flight_number}
+      success={launch.success}
+
       />
     ))
   }

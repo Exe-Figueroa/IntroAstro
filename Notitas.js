@@ -15,4 +15,6 @@
  * *Es compatible con .md
  * *Para hacer fetching de datos se realiza de la misma manera que en js
  *  ?En este caso como usamos ts hacemos un tipo para los valores que devuelve la api y así tener acceso a las sugerencias
+ * *En astro se pueden utilizar classlist y se le pueden pasar un array de clases al nodo de html
+ * *Y para clases condicionales se le pasa un obj en donde se le pone en la key las clases y en el value se le coloca la condición
  */  
