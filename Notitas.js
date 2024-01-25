@@ -17,4 +17,12 @@
  *  ?En este caso como usamos ts hacemos un tipo para los valores que devuelve la api y así tener acceso a las sugerencias
  * *En astro se pueden utilizar classlist y se le pueden pasar un array de clases al nodo de html
  * *Y para clases condicionales se le pasa un obj en donde se le pone en la key las clases y en el value se le coloca la condición
+ * *Para crear rutas dinámicas al nombre de la página se lo encierra en corchetes y se le coloca la extensión de astro
+ * *Ya que las rutas son estáticas estas deben ser llamadas con la fn getStatiscPaths() y en ella se deberán marcar todas las rutas que se pueden generar
+ * *Lo de las páginas estáticas es correcto hacerlo cuando no se crearán más de 100 páginas
+ * *Para hacer dinámicas las páginas se deben crear del lado del servidor las distintas vistas
+ *  ?Para el server side rendering se configura el astro config y se le activa el modo server del output
+ *  ?Se le puede una configuració para que sea hybrid y a cada vista que será por parter del server colocarle el prerender como false o se puede hacer todo estático o de servidor
+ * *Para una animación en el cambio de páginas se puede colocar el ViewTransitions en el head del html y eso se encarga de manera automática de animar las transiciones de las vistas
+ * *Para agregar dinamismo a los componentes hay que pasarle que el cliente lo carge cuando (Colocar opción deseada) client:visible
  */  
